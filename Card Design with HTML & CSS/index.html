@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: gray;
+        }
+
+        .card {
+            background-color: white;
+            width: 205px;
+            height: 400px;
+            border-radius: 7px;
+            border: 2px solid brown;
+        }
+
+        .image {
+            padding: 5px;
+            padding-left: 6px;
+
+        }
+
+        .image img {
+            border-radius: 10px;
+            border: 2px solid yellow;
+        }
+
+        .image img:hover{
+             box-shadow: 
+            0 0 15px rgba(141, 70, 79),
+            0 0 15px rgba(141, 70, 79),
+            inset 0 0  20px rgba(141, 70, 79);
+            transform: translateY(-4px)
+
+        }
+
+        .content {
+            font-size: 13px;
+            padding: 13px;
+        }
+
+        .content h1 {
+            font-size: 25px padding: 0;
+            margin: 0;
+            border-radius: 10px;
+        }
+
+
+        .content h1:hover{
+               box-shadow: 
+            0 0 15px rgba(141, 70, 79),
+            0 0 15px rgba(141, 70, 79),
+            inset 0 0  20px rgba(141, 70, 79);
+            transform: translateY(-4px)
+        }
+
+        .content h3 {
+            font-size: 15px;
+            padding: 0;
+            margin: 0;
+            background-color: bisque;
+            color: rgb(141, 70, 79);
+            padding-left: 15px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+            border-radius: 10px;
+        }
+
+        .content h3:hover{
+               box-shadow: 
+            0 0 15px rgba(141, 70, 79),
+            0 0 15px rgba(141, 70, 79),
+            inset 0 0  20px rgba(141, 70, 79);
+            transform: translateY(-4px)
+        }
+
+        h1 {
+            border: 2px yellow solid;
+            background-color: rgb(141, 70, 79);
+            color: white;
+            padding-left: 37px;
+            padding-bottom: 3px;
+        }
+
+        h5 {
+            font-size: 12px;
+            color: white;
+            background-color: rgb(15, 9, 0);
+            margin-top: 6px;
+            margin-bottom: 0;
+            padding-left: 12px;
+            padding-top: 3px;
+            border: 3px solid yellow;
+        }
+        
+        .bot h5:hover{
+               box-shadow: 
+            0 0 15px rgb(228, 235, 138),
+            0 0 15px rgb(219, 209, 153),
+            inset 0 0  20px rgb(223, 221, 131);
+            transform: translateY(-4px)
+        }
+
+        p {
+            margin-top: -10px;
+            padding-top: -10px;
+            padding-left: 12px;
+            color: rgb(53, 26, 48);
+            text-decoration:underline;
+        }
+
+        .capsules {
+            padding: 25px 34px 3px 29px;
+
+        }
+
+        .capsules a {
+            border: 2px solid rgb(141, 70, 79);
+            border-radius: 10px;
+            background-color: bisque;
+            color: rgb(141, 70, 79);
+            padding: 2px 2px 0px 2px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: 0.3 ease;
+        }
+
+        .capsules a:hover{
+            box-shadow: 
+            0 0 15px rgb(219, 166, 173),
+            0 0 15px rgb(223, 171, 176),
+            inset 0 0  20px rgb(218, 166, 166);
+            transform: translateY(-4px)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="188" src="card.png" alt="">
+            <div class="content">
+
+                <h1>
+                    Deejay
+                </h1>
+                <h3>
+                    Full Stack Engineer
+                </h3>
+            </div>
+            <div class="bot">
+            <p>
+                Custom Web Sites | Responsive Design | Cloud Ready
+                Turning Ideas into fully fuctional products.
+            <h5>"If you want it more modern, or premium style, I can
+                adjust it"</h5>
+            </p>
+            </div>
+            <div class="capsules">
+                <a href="https://www.instagram.com/fairy__222?igsh=ZTU3YmZ1M2FwODM1">Instagram</a>
+                <a href="http://khadeejayaqoob12@gmail.com">Gmail</a>
+            </div>
+        </div>
+
+
+
+</body>
+
+</html>
