@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & InPut Tags in HTML</title>
+</head>
+
+<body>
+    <h1>
+        Form to apply
+    </h1>
+    <form action="Post">
+        <div>
+            <label for="username">Enter your Username:</label>
+            <input type="text" name="username" placeholder="Enter Your name"><br>
+            <label for="Roll No">Enter your Roll No:</label>
+            <input type="number" name="Roll No" placeholder="Enter Your Roll no."><br>
+            <label for="Age">Enter your Age:</label>
+            <input type="number" name="Age" placeholder="Enter Your Age"><br>
+            <label for="Contact">Enter your Contact:</label>
+            <input type="text" name="Contact" placeholder="Enter Your Contact"><br>
+        </div>
+
+        <div>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to Deejay</label>
+        </div>
+
+       
+        <label for="Languages">Select one</label><br>
+        <select name="Languages">
+        <option value="Python">Python</option>
+        <option value="JS">JS</option>
+        <option value="GO"> GO</option>
+        </select>
+         <div>
+            <label for="comment"> Leave Your Comment Below:</label><br>
+            <textarea name="comment" rows="4" cols="50"></textarea>
+        </div>
+    </form>
+</body>
+
+</html>
